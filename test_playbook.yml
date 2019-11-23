@@ -4,11 +4,9 @@
     - name: nginx_test
       uri:
         url: http://localhost:8085
-      register: code
     - name: web_1_test
       uri:
         url: http://localhost:5001
-      register: code
     - name: web_2_test
       uri:
         url: http://localhost:5002

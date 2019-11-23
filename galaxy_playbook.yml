@@ -1,0 +1,9 @@
+---
+- hosts: homework_vms
+  become: yes
+  become_user: root
+  remote_user: ansible
+  roles:
+   - docker_g_role
+   - web_g_role
+   - nginx_g_role

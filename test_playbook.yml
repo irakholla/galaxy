@@ -17,8 +17,4 @@
       uri:
         url: http://localhost:5003
         return_content: yes
-    - name: web_4_test
-      uri:
-        url: http://localhost:5004
-        return_content: yes
 

@@ -5,15 +5,23 @@
       uri:
         url: http://localhost:8085
         return_content: yes
+        status_code: 200
+      register: code
     - name: web_1_test
       uri:
         url: http://localhost:5001
         return_content: yes
+        status_code: 200
+      register: code
     - name: web_2_test
       uri:
         url: http://localhost:5002
         return_content: yes
+        status_code: 200
+      register: code
     - name: web_3_test
       uri:
         url: http://localhost:5003
         return_content: yes
+        status_code: 200
+      register: code
